@@ -1,0 +1,39 @@
+.gist-title {
+    text-align: center;
+    margin-top: 0px;
+}
+
+header {
+    background-color: rgb(230, 252, 244);
+    padding: 10px;
+}
+
+.details-container {
+    margin: 1% 20% 0% 20%;
+    border-style: solid;
+    border-color: rgb(212, 243, 232);
+    border-width: 5px;
+} 
+
+.content-title {
+    text-align: center;
+    font-size: larger;
+}
+
+.details-container ul {
+    list-style-type: none;
+}
+
+.details-container li {
+    padding: 20px;
+}
+
+.file:before {
+    content: "";
+    display: block;
+    background: url("../../images/blank-file.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 2px 6px 0 0;
+}
